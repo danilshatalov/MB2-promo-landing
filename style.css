@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575656;
+    font-size: 30px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.call-container {
+    padding-top: 20px;
+}
+
+.call {
+    margin-bottom: 11px;
+}
+
+.list {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-university {
+    display: flex;
+    align-items: center;
+}
+
+.img-uni {
+    padding-right: 30px;
+}
+
+.socials {
+    padding-top: 18px;
+    padding-left: 104px;
+    cursor: pointer;
+}
+
+.request {
+    background: #FE7B10;
+    border-radius: 110px;
+    color: #fff;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 8px 30px;
+    gap: 10px;
+    border: none;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+.navigation {
+    background: #FE7B10;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 190px;
+}
+
+.navigation-list-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.navigation-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.promo {
+    background: #575656;
+    background-image: url(/img/promo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.promo-text {
+    color: #fff;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 122%;
+    padding-top: 200px;
+    padding-bottom: 48px;
+}
+
+.promo-text-mini {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fff;
+    padding-bottom: 137px;
+}
+
+.text-blue {
+    color: #0092C8;
+}
