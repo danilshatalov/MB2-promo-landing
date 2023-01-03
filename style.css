@@ -117,6 +117,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    padding: 4px;
 }
 
 .navigation-item {
@@ -126,7 +127,7 @@ body {
 
 .promo {
     background: #575656;
-    background-image: url(/img/promo.jpg);
+    background-image: url(/img/promo.png);
     background-repeat: no-repeat;
     background-position-x: right;
 }
@@ -140,6 +141,7 @@ body {
     line-height: 122%;
     padding-top: 200px;
     padding-bottom: 48px;
+    position: relative;
 }
 
 .promo-text-mini {
@@ -153,5 +155,336 @@ body {
 }
 
 .text-blue {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
     color: #0092C8;
+}
+
+.subtract {
+    position: absolute;
+    top: 178px;
+    right: 520px;
+}
+
+.opportunity {
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 71px;
+    background-image: url(/img/grey-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.opportunity::before {
+    content: "";
+    position: absolute;
+    width: 720px;
+    height: 60px;
+    background: #0092C8;
+    left: 0;
+    top: 0;
+}
+
+.opportunity-text {
+    position: relative;
+    width: 610px;
+}
+
+.opportunity-text::before {
+    content: "";
+    position: absolute;
+    width: 570px;
+    height: 4px;
+    background: #0092C8;
+}
+
+.opportunity-text p:first-child {
+    padding-top: 40px;
+}
+
+.opportunity-text p:last-child {
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+.container-opportunity {
+    position: relative;
+}
+
+.opportunity-text::after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 140px;
+    background: #008AD1;
+    right: -227px;
+    bottom: -135px;
+}
+
+.opportunity-text p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.up-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 70px;
+    padding: 17px 11px;
+    border: 1px solid #FE7B10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 110px;
+    background-color: #fff;
+    color: #FE7B10;
+}
+
+.up-arrow {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding-bottom: 5px;
+}
+
+.opportunity-img {
+    position: absolute;
+    top: 60px;
+    right: 115px;
+}
+
+.course-stages {
+    position: relative;
+    margin-top: 115px;
+}
+
+.course-stages::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #008AD1;
+    right: 0;
+    top: -116px;
+}
+
+
+
+.stages-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 122%;
+    text-align: right;
+    padding-bottom: 60px;
+}
+
+.stages-title-bold {
+    font-weight: 700;
+}
+
+.stage-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.course-stages-colomns p,
+ul {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.course-stages-colomns ul {
+    list-style-type: disc;
+}
+
+.course-stages-column-1 {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+
+.course-stages-column-1 img {
+    margin-right: 67px;
+}
+
+.course-stages-column-1 img {
+    width: 136px;
+    height: 100px;
+}
+
+.course-stages-colomns {
+    position: relative;
+    display: flex;
+}
+
+.course-stages-column-1::before {
+    position: absolute;
+    content: "";
+    width: 410px;
+    height: 4px;
+    transform: rotate(90deg);
+    left: -24px;
+    background-color: #0092C8;
+}
+
+.stages-text li {
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+.course-stages-column-2 {
+    max-width: 50%;
+    padding-top: 50px;
+    padding-left: 54px;
+}
+
+.second-stage {
+    position: relative;
+}
+
+.second-stage div::before {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 4px;
+    background: #0092C8;
+    transform: rotate(90deg);
+    top: 89px;
+    left: 102px;
+}
+
+.second-stage,
+.third-stage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.second-stage img {
+    margin-right: 68px;
+    width: 145px;
+    height: 100px;
+}
+
+.third-stage div::before {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 4px;
+    background: #0092C8;
+    transform: rotate(90deg);
+    top: 90px;
+    left: 102px;
+}
+
+.third-stage {
+    position: relative;
+}
+
+.third-stage img {
+    margin-right: 68px;
+    width: 145px;
+    height: 100px;
+}
+
+.second-stage .stages-text {
+    width: 359px;
+}
+
+.third-stage .stages-text {
+    width: 359px;
+}
+
+.third-stage {
+    margin-bottom: 61px;
+}
+
+.teaching-technique {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.teaching-technique::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    right: 0;
+    top: -10px;
+    background: #008AD1;
+}
+
+.teaching-technique-title {
+    padding-bottom: 104px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 122%;
+    text-align: right;
+}
+
+.teaching-technique-title-mini {
+    font-weight: 400;
+    size: 64px;
+    line-height: 78px;
+}
+
+.teaching-technique-col-1 {
+    padding-bottom: 60px;
+}
+
+.teaching-technique-col-1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teaching-technique-col-1 li {
+    width: 320px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.teaching-technique-col-1 li img {
+    padding-right: 15px;
+}
+
+.teaching-technique-text .stages-text:last-child {
+    padding-top: 20px;
+}
+
+.teaching-technique-col-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teaching-technique-col-2 li {
+    width: 320px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.teaching-technique-col-2 li img {
+    padding-right: 15px;
 }
