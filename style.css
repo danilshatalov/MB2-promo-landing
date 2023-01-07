@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
 html {
     box-sizing: border-box;
@@ -83,6 +84,10 @@ body {
     padding-top: 18px;
     padding-left: 104px;
     cursor: pointer;
+}
+
+.socials a {
+    text-decoration: none;
 }
 
 .request {
@@ -487,4 +492,562 @@ ul {
 
 .teaching-technique-col-2 li img {
     padding-right: 15px;
+}
+
+.terms {
+    padding-top: 60px;
+    margin-bottom: 489px;
+    position: relative;
+}
+
+.terms::after {
+    position: absolute;
+    content: "";
+    width: 790px;
+    height: 372px;
+    background: #575656;
+    right: 0;
+}
+
+.terms-title {
+    height: 140px;
+    margin-bottom: 44px;
+    padding-top: 32px;
+    padding-left: 110px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    text-align: left;
+    color: #fff;
+    background-color: #9B9B9B;
+}
+
+.terms-text {
+    width: 680px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.terms-text:first-child {
+    padding-bottom: 33px;
+}
+
+.terms-img {
+    position: absolute;
+    top: 106px;
+    right: 184px;
+    z-index: 2;
+}
+
+.students-img {
+    z-index: 1;
+    position: absolute;
+    bottom: -333px;
+    left: 356px;
+}
+
+.teachers-title {
+    margin-bottom: 28px;
+    padding-top: 35px;
+    height: 140px;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    color: #fff;
+    background: #A0D8F7;
+}
+
+.teachers-text {
+    padding-bottom: 33px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 202%;
+    text-align: center;
+    color: #575656;
+}
+
+.teachers-text-mini {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40.4px;
+}
+
+.slider {
+    padding-bottom: 60px;
+}
+
+.slider ul {
+    display: flex;
+}
+
+.slider li img {
+    padding: 0 42px 20px 42px;
+}
+
+.teacher-name {
+    width: 196px;
+    padding-left: 89px;
+    padding-bottom: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 122%;
+    text-align: center;
+    color: #575656;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.teacher-name-last {
+    padding-left: 105px;
+}
+
+.teacher-degree {
+    width: 263px;
+    padding-left: 33px;
+    padding-bottom: 23px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    color: #575656;
+}
+
+.teacher-degree-last {
+    padding-left: 53px;
+}
+
+.teacher-position {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 122%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0092C8;
+}
+
+.benefits {
+    padding-top: 60px;
+    position: relative;
+}
+
+.benefits-container {
+    padding-bottom: 101px;
+}
+
+.benefits-col-1 {
+    width: 549px;
+    padding-top: 212px;
+    padding-left: 40px;
+}
+
+.benefits-col-1-text {
+    position: relative;
+}
+
+.benefits-col-1-text::before {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 4px;
+    background: #0092C8;
+    transform: rotate(90deg);
+    left: -175px;
+    top: 144px;
+}
+
+.benefits-col-1-text-main {
+    padding-bottom: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.benefits-col-1-text-upper {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #575656;
+}
+
+.benefits-col-1-text-upper-span {
+    text-transform: none;
+}
+
+.benefits-container {
+    display: flex;
+}
+
+.benefits-col-2 {
+    width: 633px;
+    position: relative;
+}
+
+.benefits-col-2 img {
+    position: absolute;
+    right: -153px;
+    top: 0;
+    z-index: -1;
+}
+
+.benefits-col-2-text {
+    width: 420px;
+    margin-left: 260px;
+    padding-top: 72px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.benefits-col-2-text p {
+    padding-bottom: 40px;
+}
+
+.goal-block {
+    padding-bottom: 60px;
+    padding-top: 122px;
+    width: 690px;
+
+}
+
+.goal-container {
+    position: relative;
+    padding-left: 102px;
+    padding-bottom: 122px;
+}
+
+.goal-text-bold {
+    padding-bottom: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122%;
+    text-transform: uppercase;
+    color: #575656;
+}
+
+.goal-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 122%;
+    color: #575656;
+}
+
+.goal-text-italica {
+    width: 600px;
+    padding-bottom: 35px;
+    font-family: 'Marck Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.goal-text-signuture {
+    padding-bottom: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.goal-text-signuture-mini {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.creator-img {
+    position: absolute;
+    top: 80px;
+    right: -105px;
+}
+
+.payment-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.payment-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #575656;
+    padding-left: 86px;
+    padding-bottom: 40px;
+}
+
+.payment-colomns {
+    display: flex;
+}
+
+.payment-col-1 {
+    position: relative;
+    width: 521px;
+    padding-top: 106px;
+    padding-left: 144px;
+    margin-right: 36px;
+}
+
+.payment-col-1::before {
+    position: absolute;
+    content: "";
+    width: 296px;
+    height: 4px;
+    transform: rotate(90deg);
+    bottom: 226px;
+    left: -25px;
+    background: #0092C8;
+}
+
+.payment-col-1-text {
+    padding-bottom: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122%;
+    color: #575656;
+}
+
+.payment-col-1-price {
+    padding-bottom: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    color: #0092C8;
+}
+
+.payment-col-1--text-mini {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152%;
+    text-transform: uppercase;
+    color: #575656;
+}
+
+.payment-col-1--text-mini-blue {
+    text-transform: none;
+    font-weight: 700;
+    color: #0092C8;
+}
+
+.payment-col-2 {
+    padding-top: 34px;
+}
+
+.payment-col-2-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.payment-col-2-block-first,
+.payment-col-2-block-second {
+    margin-right: 20px;
+}
+
+.certificate-container {
+    padding-top: 60px;
+}
+
+.certificate-container img {
+    margin-left: 63px;
+    padding: 40px 274px 60px 274px;
+}
+
+.certificate-title::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: #0092C8;
+    right: 506px;
+    top: -39px;
+}
+
+.certificate-title {
+    position: relative;
+    padding-left: 118px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    text-align: center;
+    color: #575656;
+}
+
+.socials-container {
+    position: relative;
+    padding-top: 36px;
+    padding-left: 55px;
+    padding-bottom: 60px;
+}
+
+.socials-container::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    top: 17px;
+    background: #0092C8;
+}
+
+.socials-title {
+    padding-bottom: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    text-transform: uppercase;
+    color: #575656;
+}
+
+.socials-title-mini {
+    text-transform: none;
+}
+
+.socials-text {
+    width: 420px;
+    padding-bottom: 60px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #575656;
+}
+
+.socials-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp-btn {
+    margin-right: 14px;
+    background: #27D061;
+    border: none;
+}
+
+.whatsapp-btn img {
+    padding: 16px 108px;
+}
+
+
+.telegram-btn {
+    margin-right: 14px;
+    background: #1D98DC;
+    border: none;
+}
+
+.telegram-btn img {
+    padding: 20px 108px;
+}
+
+.vk-btn {
+    background: #0077FF;
+    border: none;
+}
+
+.vk-btn img {
+    padding: 16px 108px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-list {
+    padding: 36px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-list-mini {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.footer-list-mini p {
+    margin-right: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.contract {
+    text-decoration: none;
+    color: #fff;
+}
+
+.politic {
+    margin-right: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    color: #FFFFFF;
+    text-decoration: none;
 }
